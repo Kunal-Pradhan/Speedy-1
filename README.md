@@ -1,4 +1,4 @@
 Speedy is a internet download speed testing app/website.
 
-Website: bit.ly/
-Android App: bit.ly/
+Website: https://bit.ly/spEEdy
+Android App: https://bit.ly/SpeedyAPK
