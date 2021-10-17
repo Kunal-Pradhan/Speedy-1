@@ -6,6 +6,7 @@
 "display": "fullscreen",
 "icons": [
 {
+"purpose": "any maskable",
 "src": "SpeedyIcon/Speedy.png",
 "sizes": "1536x1536",
 "type": "image/png"
