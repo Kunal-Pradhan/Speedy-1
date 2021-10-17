@@ -1,5 +1,5 @@
 {
-"background_color": "#ffffff",
+"background_color": "#000018",
 "description": "Test your internet download speed.",
 "dir": "ltr",
 "display": "fullscreen",
@@ -8,14 +8,13 @@
 "scope": "/",
 "short_name": "Speedy",
 "start_url": "/Speedy.html",
-"theme_color": "#ffffff",
-"categories: [],
+"theme_color": "#000018",
+"categories": [],
 "screenshots": [],
 "icons": [
 {
 "src": "SpeedyIcon/Speedy.png",
 "type": "image/png",
-"purpose": "any maskable",
 "sizes": "1536x1536"
 }
 ],
@@ -23,7 +22,7 @@
 {
 "name": "Test Speed",
 "url": "/Speedy.html",
-description: "Test your download speed"
+"description": "Test your internet speed."
 }
 ]
 }
