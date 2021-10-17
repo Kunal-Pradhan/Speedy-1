@@ -33,7 +33,8 @@
 ],
 "shortcuts": [
 {
-"name": "Test Speed",
+"short_name": "Test Speed",
+"name": "Internet Test Speed",
 "url": "Speedy.html",
 description: "Test your download speed"
 }
