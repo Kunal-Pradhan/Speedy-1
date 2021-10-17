@@ -3,6 +3,7 @@
 self.addEventListener('install', (e) => {
 e.waitUntil(
 caches.open('Speedy').then((cache) => cache.addAll([
+'SpeedyIcon/Speedy.png',
 'Speedy.js'
 ])),
 );
