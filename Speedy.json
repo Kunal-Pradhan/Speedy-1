@@ -32,9 +32,16 @@
 ],
 "shortcuts": [
 {
-"name": "Test Speed",
+"name": "Test Internet Speed",
+"short_name": "Test Speed"
 "url": "/Speedy.html",
-"description": "Test your internet speed."
+"description": "Test your internet speed."z
+"icons": [
+{
+"src": "SpeedyIcon/Speedy.png",
+"sizes": "1536x1536"
+}
+]
 }
 ]
 }
