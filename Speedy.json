@@ -1,28 +1,22 @@
 {
-"orientation": "any",
-"theme_color": "#000018",
-"background_color": "#000018",
-"description": "Test your internet download speed, with only 6MB.",
-"display": "fullscreen"
-"icons": [
-{
-"src": "SpeedyIcon/Speedy.png",
-"sizes": "1536x1536",
-"type": "image/png",
-"purpose": "any maskable"
-}
-],
-"name": "Speedy, Test your internet speed.",
-"short_name": "Speedy",
-"start_url": "Speedy.html"
-"shortcuts": [
-{
-"name": "Test Speed",
-"url": "/Speedy.html",
-"description": "Test your internet download speed."
-},
-],
-"categories": [
-"utilities"
-]
+  "background_color": "#ffffff",
+  "description": "Test your internet download speed.",
+  "dir": "ltr",
+  "display": "fullscreen",
+  "name": "Speedy, know your speed.",
+  "orientation": "any",
+  "scope": "/",
+  "short_name": "Speedy",
+  "start_url": "/Speedy.html",
+  "theme_color": "#ffffff",
+  "categories": [],
+  "screenshots": [],
+  "icons": [
+    {
+      "src": "SpeedyIcon/Speedy.png",
+      "type": "image/png",
+      "sizes": "1536x1536"
+    }
+  ],
+  "shortcuts": []
 }
