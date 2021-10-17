@@ -5,7 +5,7 @@
 "name": "Speedy, know your speed.",
 "orientation": "any",
 "short_name": "Speedy",
-"start_url": "/Speedy.html",
+"start_url": "Speedy.html",
 "theme_color": "#000018",
 "icons": [
 {
