@@ -19,5 +19,11 @@
 "sizes": "1536x1536"
 }
 ],
-"shortcuts": []
+"shortcuts": [
+{
+"name": "Test Speed",
+"url": "/Speedy.html",
+description: "Test your download speed"
+}
+]
 }
