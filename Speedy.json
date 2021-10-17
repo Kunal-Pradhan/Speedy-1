@@ -9,7 +9,9 @@
 "short_name": "Speedy",
 "start_url": "/Speedy.html",
 "theme_color": "#ffffff",
-"categories": [],
+"categories": [
+"utilities"
+],
 "screenshots": [],
 "icons": [
 {
