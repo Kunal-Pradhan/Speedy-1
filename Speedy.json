@@ -1,9 +1,9 @@
 {
 "orientation": "any"
-"theme_color": "#000018",
 "background_color": "#000018",
 "description": "Test your internet download speed, with only 6MB.",
 "display": "fullscreen",
+"theme_color": "#000018"
 "icons": [
 {
 "src": "SpeedyIcon/Speedy.png",
