@@ -25,13 +25,5 @@
 "purpose": "any maskable",
 "sizes": "1536x1536"
 }
-],
-"shortcuts": [
-{
-"short_name": "Test Speed",
-"name": "Internet Test Speed",
-"url": "Speedy.html",
-description: "Test your download speed"
-}
 ]
 }
