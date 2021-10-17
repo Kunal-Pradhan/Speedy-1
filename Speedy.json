@@ -14,7 +14,18 @@
 "utilities"
 }
 ],
-"screenshots": [],
+"screenshots": [
+{
+"src": "Testing.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "NoInternet.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+}
+],
 "icons": [
 {
 "src": "SpeedyIcon/Speedy.png",
