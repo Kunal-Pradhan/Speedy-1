@@ -1,0 +1,405 @@
+<html>
+<head>
+<title id="title">Speedy</title>
+<link rel="manifest" href="Speedy.json">
+<link rel="shortcut icon" type="image/png" href="SpeedyIcon/Speedy.png">
+<meta name="viewport" content="user-scalable=no">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap" rel="stylesheet">
+<style>
+body{
+position: fixed;
+overflow: hidden;
+user-select: none;
+}
+
+#test{
+left: 0;
+right: 0;
+position: fixed;
+bottom: 15%;
+}
+
+#test2{
+left: 0;
+right: 0;
+position: fixed;
+bottom: 15%;
+z-index: 2;
+opacity: 0;
+}
+
+#i{
+padding-bottom: 0;
+padding-top: 15px;
+padding-right: 15px;
+padding-left: 9px;
+animation: shadow 1s infinite;
+border-radius: 40px;
+color: skyblue;
+font-size: 500%;
+font-weight: bold;
+transition: 0.5s;
+font-family: 'Josefin Sans', sans-serif;
+border: 3px solid snow;
+text-align: center;
+}
+
+#i:active{
+transition: 0.5s;
+font-weight: normal;
+letter-spacing: 7px;
+animation: shad 0.5s;
+border: 7px solid skyblue;
+color: cyan;
+}
+
+#i2{
+padding-bottom: 0;
+padding-top: 15px;
+padding-right: 15px;
+padding-left: 9px;
+animation: shadow 1s infinite;
+border-radius: 40px;
+color: skyblue;
+font-size: 500%;
+font-weight: bold;
+transition: 0.5s;
+font-family: 'Josefin Sans', sans-serif;
+border: 3px solid snow;
+text-align: center;
+}
+
+#i2:active{
+transition: 0.5s;
+font-weight: normal;
+letter-spacing: 7px;
+animation: shad 0.5s;
+border: 7px solid skyblue;
+color: cyan;
+}
+
+@keyframes shad{
+100%{
+box-shadow: 0 0 0 0px rgba(125, 196, 225, 0.5);
+}
+0%{
+box-shadow: 0 0 0 30px rgba(125, 196, 225, 0);
+}
+}
+
+@keyframes shadow{
+0%{
+box-shadow: 0 0 0 0px rgba(125, 196, 225, 0.5);
+}
+100%{
+box-shadow: 0 0 0 30px rgba(125, 196, 225, 0);
+}
+}
+
+#info{
+border-radius: 99% 9% 99% 99%;
+border: 5px solid skyblue;
+font-size: 3rem;
+color: white;
+font-weight: bold;
+position: fixed;
+top: 1%;
+right: 1%;
+overflow: hidden;
+background: #002c4a;
+transition: 0.5s;
+height: 2ch;
+width: 2ch;
+letter-spacing: 1.3px;
+word-break: break-word;
+margin: 0;
+z-index: 9;
+font-family: sans-serif;
+}
+
+#info:active{
+height: 500px;
+width: 500px;
+border-radius: 9% 1% 9% 9%;
+padding: 3px;
+box-shadow: 0 0 50px 0 black;
+transition: 0.5s;
+font-size: 30px;
+border: 7px solid cyan;
+}
+
+#center{
+margin: 4px;
+margin-left: 7px;
+transition: 0.3s;
+}
+
+#center:active{
+margin-right: 45%;
+margin-left: 45%;
+font-size: 3.5rem;
+transition: 0.3s;
+}
+
+#container{
+position: fixed;
+left: 45%;
+right: 45%;
+top: 25%;
+display: flex;
+justify-content: center;
+transition: 0.3s;
+}
+
+.dots{
+width: 23px;
+height: 23px;
+margin: -1px 0;
+background-color: transparent;
+color: orangered;
+box-shadow: 0 -30px 0 0;
+border-radius: 10px;
+animation: loading 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+}
+
+.dots::after, .dots::before{
+content: "";
+width: 23px;
+height: 23px;
+border-radius: 10px;
+position: absolute;
+top: 0;
+left: 0;
+background-color: transparent;
+box-shadow: 0 -30px 0 0;
+margin: -1px 0;
+}
+
+.dots::after{
+color: gold;
+animation: loading 1.5s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+}
+
+.dots::before{
+color: limegreen;
+animation: loading 2s infinite cubic-bezier(0.2, 0.6, 0.8, 0.2);
+}
+
+@keyframes loading {
+0%{
+transform: rotateZ(0deg);
+}
+100%{
+transform: rotateZ(360deg);
+}
+}
+
+@keyframes up{
+20%{
+top: 18%;
+}
+100%{
+top: 0;
+opacity: 0;
+}
+}
+
+.message{
+display: none;
+}
+
+@keyframes hide{
+20%{
+bottom: 18%;
+}
+100%{
+bottom: 0;
+opacity: 0;
+}
+}
+
+@keyframes show{
+80%{
+bottom: 18%;
+opacity: 0.8;
+}
+100%{
+bottom: 15%;
+opacity: 1;
+}
+}
+
+#nonet{
+top: 20%;
+color: INDIANred;
+font-size: 500%;
+font-family: Times New Roman;
+animation: bold;
+position: fixed;
+left: 0;
+right: 0;
+width: 100%;
+text-align: center;
+}
+
+#no{
+position: fixed;
+right: 0;
+opacity: 0;
+transition: 0.4s;
+}
+
+#internet{
+position: fixed;
+left: 0;
+opacity: 0;
+transition: 0.3s;
+}
+
+.card{
+text-align: center;
+top: 7%;
+position: fixed;
+left: 5%;
+right: 5%;
+width: 90%;
+overflow: hidden;
+padding-bottom: 0;
+}
+
+#result{
+font-family: 'Maven Pro', sans-serif;
+color: #d5f4ff;
+font-size: 999%;
+font-weight: bold;
+transform: translateY(118.5%);
+z-index: 0;
+transition: 0.7s;
+}
+
+#mbps{
+font-size: 0;
+color: snow;
+font-family: 'Josefin Sans', sans-serif;
+letter-spacing: 1.5px;
+transition: 0.5s;
+}
+
+hr{
+width: 0;
+opacity: 0;
+transition: opacity: 0.1s;
+transition: 0.3s;
+}
+</style>
+
+<script src="Speedy.js">
+if(window.addEventListener){
+window.addEventListener('load', InitiateSpeedDetection, false);
+}
+
+else if(window.attachEvent){
+window.attachEvent('onload', InitiateSpeedDetection);
+}
+
+function ShowProgressMessage(msg){
+if(document.getElementById("progress")){
+document.getElementById("progress").innerHTML = msg;
+}
+}
+
+function showResultMessage(msg){
+document.getElementById("result").innerHTML = msg;
+}
+
+function InitiateSpeedDetection(){
+ShowProgressMessage("");
+window.setTimeout(MeasureConnectionSpeed, 1);
+};
+
+function MeasureConnectionSpeed(){
+alert("Calculating your internet speed...");
+document.getElementById("test").style.animation="hide 0.7s ease-out";
+setTimeout(()=>{
+document.getElementById("test").style.display="none";
+},669)
+var startTime, endTime;
+var download = new Image();
+download.onload = function(){
+endTime = (new Date()).getTime();
+showResults();
+}
+download.onerror = function (){
+if (confirm("No Internet!\n\rTry to turn on mobile data or Wi-Fi, then click 'OK' to test again.")){
+history.go(0);
+}
+else{
+document.getElementById("container").style.opacity="0";
+document.getElementById("test2").style.opacity="1"; in
+document.getElementById("no").style.right="62%";
+document.getElementById("no").style.opacity="1";
+document.getElementById("internet").style.left="40%";
+document.getElementById("internet").style.opacity="1";
+}
+}
+startTime = (new Date()).getTime();
+var cacheBuster = "?nnn=" + startTime;
+download.src = "https://4k-uhd.nl/wp-content/uploads/2018/08/4K-3840x2160-Wallpaper-Uitzicht-5.jpg" + cacheBuster;
+function showResults(){
+var duration = (endTime - startTime) / 1000;
+showResultMessage("<center id='speed'>" + (((6000000 * 8 / duration).toFixed(2) / 1024).toFixed(2) / 1024).toFixed(2) + "</center>");
+document.getElementById("title").innerHTML=(((6000000 * 8 / duration).toFixed(2) / 1024).toFixed(2) / 1024).toFixed(2) + " MBPS";
+setTimeout(()=>{
+document.getElementById("container").style.display="none";
+},969)
+document.getElementById("test").style.display="block";
+document.getElementById("test").style.animation="show 0.7s ease-out";
+setTimeout(()=>{
+document.getElementById("test").style.opacity="0";
+document.getElementById("test2").style.opacity="1";
+},700)
+document.getElementById("result").style.transform="translateY(0)";
+document.getElementById("mbps").style.fontSize="345%";
+document.getElementById("hr").style.width="90%";
+document.getElementById("hr").style.opacity="1";
+}
+}
+
+function refresh(){
+setTimeout(()=>{
+if (confirm("Download Speedy app") == true){
+window.open("https://drive.google.com/u/2/uc?export=download&confirm=8zjo&id=1h05wht0idX0Z16GYrqKNGAmjxRp5Gr18")
+}
+else{
+history.go(0)
+}
+},800)
+}
+</script>
+</head>
+<body bgcolor="#000018">
+<center class="card">
+<i class="message" id="progress"></i>
+<center class="result" id="result">
+</center><span id="mbps">Megabits Per Second</span><hr color="orangered" id="hr"></center>
+<div id="container"><div class="dots"></div></div>
+<div id="info">
+<center class="fa fa-info-circle" id="center"></center>
+<br>
+<li>This test downloads data more than 5MB, data charges may apply.</li>
+<br>
+<li>This will take 1-2 minutes on an average. It can take even more time if your internet is slow.</li>
+<br>
+<li>Download Speedy app for better experience.</li>
+</div>
+<center id="nonet"><span id="no">No </span><span id="internet">Internet!</span></center>
+<center id="test"><span onclick="refresh()" id="i"> TEST AGAIN </span></center>
+<center id="test2"><span onclick="refresh()" id="i"> TEST AGAIN </span></center>
+</body>
+</html>
