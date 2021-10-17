@@ -7,7 +7,7 @@
 "orientation": "any",
 "scope": "/",
 "short_name": "Speedy",
-"start_url": "/Speedy.html",
+"start_url": "Speedy.html",
 "theme_color": "#ffffff",
 "categories": [
 {
