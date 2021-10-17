@@ -1,5 +1,5 @@
 {
-"background_color": "#ffffff",
+"background_color": "#000018",
 "description": "Test your internet download speed.",
 "dir": "ltr",
 "display": "fullscreen",
@@ -8,7 +8,7 @@
 "scope": "/",
 "short_name": "Speedy",
 "start_url": "Speedy.html",
-"theme_color": "#ffffff",
+"theme_color": "#000018",
 "categories": [
 {
 "utilities"
@@ -37,7 +37,7 @@
 "shortcuts": [
 {
 "name": "Test Speed",
-"url": "/Speedy.html",
+"url": "Speedy.html",
 description: "Test your download speed"
 }
 ]
