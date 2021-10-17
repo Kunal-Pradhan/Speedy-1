@@ -4,12 +4,12 @@
 "dir": "ltr",
 "display": "fullscreen",
 "name": "Speedy, know your speed.",
-"orientation": "any",
-"scope": "/",
 "short_name": "Speedy",
 "start_url": "Speedy.html",
 "theme_color": "#000018",
-"categories": [],
+"categories": [
+"utilities"
+],
 "screenshots": [],
 "icons": [
 {
