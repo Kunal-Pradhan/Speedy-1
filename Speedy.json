@@ -15,7 +15,7 @@
 "name": "Speedy, Test your internet speed.",
 "short_name": "Speedy",
 "start_url": "Speedy.html"
-"shortcuts" : [
+"shortcuts": [
 {
 "name": "Test Speed",
 "url": "/Speedy.html",
