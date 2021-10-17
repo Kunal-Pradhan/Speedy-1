@@ -15,6 +15,7 @@
 {
 "src": "SpeedyIcon/Speedy.png",
 "type": "image/png",
+"purpose": "any maskable",
 "sizes": "1536x1536"
 }
 ],
