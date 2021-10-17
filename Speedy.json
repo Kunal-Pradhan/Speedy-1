@@ -10,7 +10,18 @@
 "start_url": "/Speedy.html",
 "theme_color": "#000018",
 "categories": [],
-"screenshots": [],
+"screenshots": [
+{
+"src": "Testing.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+},
+{
+"src": "NoInternet.jpeg",
+"sizes": "800x1280",
+"type": "image/jpeg"
+}
+],
 "icons": [
 {
 "src": "SpeedyIcon/Speedy.png",
