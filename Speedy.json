@@ -35,13 +35,7 @@
 "name": "Test Internet Speed",
 "short_name": "Test Speed"
 "url": "/Speedy.html",
-"description": "Test your internet speed.",
-"icons": [
-{
-"src": "SpeedyIcon/Speedy.png",
-"sizes": "1536x1536"
-}
-]
+"description": "Test your internet speed."
 }
 ]
 }
