@@ -10,6 +10,7 @@
 "start_url": "/Speedy.html",
 "theme_color": "#000018",
 "categories": [],
+"screenshots": [],
 "screenshots": [
 {
 "src": "Testing.jpeg",
@@ -32,8 +33,7 @@
 ],
 "shortcuts": [
 {
-"name": "Test Internet Speed",
-"short_name": "Test Speed"
+"name": "Test Speed",
 "url": "/Speedy.html",
 "description": "Test your internet speed."
 }
