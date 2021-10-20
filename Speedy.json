@@ -1,7 +1,7 @@
 {
 "background_color": "#000018",
 "description": "Test your internet download speed.",
-"display": "minimal-ui",
+"display": "standalone",
 "name": "Speedy, know your speed.",
 "short_name": "Speedy",
 "start_url": "Solution.html",
