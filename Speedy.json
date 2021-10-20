@@ -1,11 +1,11 @@
 {
 "background_color": "#000018",
 "description": "Test your internet download speed.",
-"display": "standalone",
+"display": "fullscreen",
 "name": "Speedy, know your speed.",
 "short_name": "Speedy",
 "start_url": "Solution.html",
-"scope": "https://",
+"scope": "Speedy/",
 "theme_color": "#000018",
 "categories": [
 "utilities"
