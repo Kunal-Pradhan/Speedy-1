@@ -4,7 +4,7 @@
 "display": "standalone",
 "name": "Speedy, know your speed.",
 "short_name": "Speedy",
-"start_url": "Solution.html",
+"start_url": "Speedy.html",
 "scope": "/Speedy/",
 "theme_color": "#000018",
 "categories": [
