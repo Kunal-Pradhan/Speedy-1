@@ -1,10 +1,10 @@
-//Version: 1.1
+//Version: 1
 
 self.addEventListener('install', (e) => {
 e.waitUntil(
 caches.open('Speedy').then((cache) => cache.addAll([
 'Speedy.js',
-'index.html'
+'Speedy.html'
 ])),
 );
 });
