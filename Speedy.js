@@ -1,25 +1,7 @@
-if ('serviceWorker' in navigator) {
+if('serviceWorker' in navigator){
 alert("done");
-  navigator.serviceWorker.register('SpeedyWorker.js')
-  .then(function(registration) {
-    alert('Registration successful, scope is:', registration.scope);
-  })
-  .catch(function(error) {
-    alert('Service worker registration failed, error:', error);
-  });
+navigator.serviceWorker.register('SpeedyWorker.js');
 }
-else{
-alert("not supported");
-}
-let deferredPrompt;
-window.addEventListener("beforeinstallprompt", (e)=>{
-e.preventDefault();
-deferredPrompt=e;
-deferredPrompt.prompt();
-deferredPrompt.userChoice.then((choiceResult)=>{
-deferredPrompt=null;
-});
-});
 
 document.getElementById("v").src="Update.js?version="+Date.now();
 
