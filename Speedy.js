@@ -1,4 +1,5 @@
 if ('serviceWorker' in navigator) {
+alert("done");
   navigator.serviceWorker.register('SpeedyWorker.js')
   .then(function(registration) {
     alert('Registration successful, scope is:', registration.scope);
