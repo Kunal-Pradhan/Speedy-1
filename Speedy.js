@@ -1,3 +1,10 @@
+let deferredPrompt;
+window.addEventListener('beforeinstallprompt', (e) => {
+e.preventDefault();
+deferredPrompt = e;
+showInstallPromotion();
+});
+
 if('serviceWorker' in navigator){
 alert("done");
 navigator.serviceWorker.register('SpeedyWorker.js');
