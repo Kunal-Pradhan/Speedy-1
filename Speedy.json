@@ -2,6 +2,7 @@
 "background_color": "#000000",
 "description": "Test your internet download speed.",
 "display": "standalone",
+"orientation": "portrait",
 "name": "Speedy, know your speed.",
 "short_name": "Speedy",
 "start_url": "index.html",
