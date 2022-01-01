@@ -7,7 +7,9 @@ if ('serviceWorker' in navigator) {
     alert('Service worker registration failed, error:', error);
   });
 }
-
+else{
+alert("not supported");
+}
 let deferredPrompt;
 window.addEventListener("beforeinstallprompt", (e)=>{
 e.preventDefault();
