@@ -1,14 +1,7 @@
-let deferredPrompt;
-window.addEventListener('beforeinstallprompt', (e) => {
-e.preventDefault();
-deferredPrompt = e;
-showInstallPromotion();
-});
+import 'https://cdn.jsdelivr.net/npm/@pwabuilder/pwaupdate';
 
-if('serviceWorker' in navigator){
-alert("done");
-navigator.serviceWorker.register('SpeedyWorker.js');
-}
+const el = document.createElement('pwa-update');
+document.body.appendChild(el);
 
 document.getElementById("v").src="Update.js?version="+Date.now();
 
